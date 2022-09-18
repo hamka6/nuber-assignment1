@@ -1,0 +1,1 @@
+import r from"react";import{translate as e}from"@aws-amplify/ui";import{useAuthenticator as t}from"../hooks/useAuthenticator/index.js";import{Alert as o}from"../../../primitives/Alert/Alert.js";const i=()=>{const{error:i}=t((r=>[r.error]));return r.createElement(r.Fragment,null,i?r.createElement(o,{variation:"error",isDismissible:!0},e(i)):null)};export{i as RemoteErrorMessage};
