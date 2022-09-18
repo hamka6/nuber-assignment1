@@ -1,0 +1,59 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nuber-dev-134221-authRole",
+      "UnauthRoleArn": "arn:aws:iam::432002658736:role/amplify-nuber-dev-134221-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::432002658736:role/amplify-nuber-dev-134221-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-nuber-dev-134221-deployment",
+      "UnauthRoleName": "amplify-nuber-dev-134221-unauthRole",
+      "StackName": "amplify-nuber-dev-134221",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:432002658736:stack/amplify-nuber-dev-134221/ee0b1790-363e-11ed-8c7f-0a1a71ca9474",
+      "AmplifyAppId": "d2l0k20ex2fvvr"
+    }
+  },
+  "auth": {
+    "nuber735511a4": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-nuber-dev-134221-deployment/amplify-cfn-templates/auth/nuber735511a4-cloudformation-template.json",
+        "logicalId": "authnuber735511a4"
+      },
+      "lastPushTimeStamp": "2022-09-17T04:18:23.926Z",
+      "output": {
+        "UserPoolId": "ap-southeast-2_xOREHuC3y",
+        "AppClientIDWeb": "3j375oe5i87a453007rbbksq1v",
+        "AppClientID": "90fet2qhdavrev3migbgb2d6",
+        "IdentityPoolId": "ap-southeast-2:4a598ab1-ba81-473a-8e63-992f86d042bb",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-2:432002658736:userpool/ap-southeast-2_xOREHuC3y",
+        "IdentityPoolName": "nuber735511a4_identitypool_735511a4__dev",
+        "UserPoolName": "nuber735511a4_userpool_735511a4"
+      },
+      "lastPushDirHash": "Qz/U2/MEPQ8J1K5tAGl/t5j3QQU="
+    }
+  }
+}
